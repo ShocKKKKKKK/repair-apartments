@@ -1,0 +1,54 @@
+.hero {
+  background-color: #f5f5f5;
+  padding: 50px 0 52px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {}
+
+  &__title {
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-bottom: 40px;
+  }
+
+  &__subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 70px;
+  }
+
+  &__list {}
+
+  &__item {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__img {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    border-radius: 50%;
+    border: 2px solid #ffd200;
+  }
+
+  &__desc {
+    max-width: 250px;
+  }
+
+  &__pictures {
+    width: 50%;
+  }
+}
