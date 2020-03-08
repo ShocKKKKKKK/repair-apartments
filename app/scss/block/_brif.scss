@@ -2,7 +2,7 @@
   padding: 100px 0;
   background-image: url(../img/bg/brif/Прямоугольник_1_копия_14.jpg), url(../img/bg/brif/brif-bg.jpg);
   background-position: left center, center right;
-  background-size: 50%, 50%;
+  background-size: 50%, cover;
   background-repeat: repeat-y, no-repeat;
 
   &__block {
@@ -90,7 +90,7 @@
 
 .form {
   text-align: center;
-  padding-left: 215px;
+  padding-left: 100px;
 
   &__title {
     font-weight: 700;

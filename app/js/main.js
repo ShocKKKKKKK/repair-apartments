@@ -1,5 +1,5 @@
 $(function () {
-  $('.btn').on('click', function () {
+  $('.header__btn').on('click', function () {
     $('.modal').addClass('modal-active');
   });
   $('.modal__close').on('click', function () {
@@ -30,6 +30,19 @@ $(function () {
     autoplay: true,
     prevArrow: '.slick-prev',
     nextArrow: '.slick-next',
+    responsive: [{
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
   });
 
   new WOW().init();

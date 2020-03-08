@@ -1,0 +1,309 @@
+@media (max-width: 1200px) {
+
+  .hero__pictures {
+    img {
+      display: none;
+    }
+  }
+
+  .offer__row {
+    flex-wrap: wrap;
+
+    input {
+      flex-basis: 100%;
+    }
+  }
+
+  .offer__contact {
+    flex-direction: column;
+  }
+
+  .offer__desc,
+  .offer__text {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .offer__desc {
+    margin-bottom: 20px;
+  }
+
+  .price__item {
+    flex-basis: 49%;
+    max-width: 100%;
+  }
+
+  .step__list {
+    flex-wrap: wrap;
+  }
+
+  .step__item::before {
+    display: none;
+  }
+
+  .form {
+    padding-left: 0;
+  }
+
+  .footer__list {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero__inner {
+    flex-direction: column;
+  }
+
+  .hero__list {
+    margin-bottom: 20px;
+  }
+
+  .hero__pictures {
+    width: 100%;
+    background-image: none !important;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .hero__title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .hero__subtitle {
+    text-align: center;
+  }
+
+  .offer__inner {
+    padding: 50px 30px 50px 0;
+  }
+
+  .portfolio {
+    padding: 50px 0;
+  }
+
+  .portfolio__title {
+    margin-bottom: 40px;
+  }
+
+  .price {
+    padding: 50px 0;
+  }
+
+  .price__title {
+    margin-bottom: 25px;
+  }
+
+  .step {
+    padding-bottom: 50px;
+  }
+
+  .step__title {
+    margin-bottom: 30px;
+  }
+
+  .advantages__title {
+    padding: 50px 0;
+  }
+
+  .advantages {
+    padding-bottom: 50px;
+  }
+
+  .advantages__inner {
+    margin-bottom: 50px;
+  }
+
+  .advantages__list {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .advantages__item {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .advantages__img {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .advantages__text {
+    font-weight: 700;
+  }
+
+  .warranty {
+    padding-bottom: 50px;
+  }
+
+  .warranty__title {
+    margin-bottom: 50px;
+  }
+
+  .warranty__list {
+    flex-wrap: wrap;
+  }
+
+  .brif__block {
+    flex-direction: column;
+  }
+
+  .brif {
+    background-size: cover, 0;
+    padding: 50px 0;
+  }
+
+  .interview__title,
+  .interview__subtitle {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .interview__title {
+    margin-bottom: 30px;
+  }
+
+  .interview__subtitle {
+    margin-bottom: 20px;
+  }
+
+  .interview__list {
+    margin-bottom: 20px;
+  }
+
+  .footer__map {
+    position: relative;
+    width: 100%;
+  }
+
+  .footer__inner {
+    flex-basis: 100%;
+    padding: 50px 0px;
+    margin: 0 auto;
+  }
+
+  .footer__title {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .footer__list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .footer__item {
+    flex-basis: 33%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 30px 0;
+  }
+
+  .hero__title {
+    font-size: 34px;
+    margin-bottom: 20px;
+    line-height: 1;
+  }
+
+  .hero__subtitle {
+    margin-bottom: 20px;
+  }
+
+  .offer__inner {
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .offer::before {
+    width: 100%;
+  }
+
+  .offer__title {
+    max-width: 100%;
+  }
+
+  .step__item {
+    flex-basis: 100%;
+    max-width: 100%;
+    font-weight: 700;
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+  .warranty__item {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .warranty__img {
+    text-align: center;
+  }
+
+  .brif {
+    form {
+      max-width: 100%;
+    }
+  }
+
+  .brif__input {
+    flex-basis: 100%;
+  }
+
+  .footer__item {
+    flex-basis: 49%;
+  }
+
+
+}
+
+@media (max-width: 576px) {
+  .header__contacts {
+    display: none;
+  }
+
+  .header__logo {
+    max-width: 115px;
+  }
+
+  .header__btn {
+    padding: 17px 7px;
+  }
+
+  .price__item {
+    flex-basis: 100%;
+  }
+
+  .offer__btn {
+    font-size: 14px;
+    padding: 27px 4px;
+  }
+
+  .interview__text {
+    flex-basis: 100%;
+  }
+
+  .advantages__item {
+    height: 300px;
+  }
+
+  .footer__item {
+    flex-basis: 100%;
+  }
+
+  .up-show {
+    display: none;
+  }
+}
