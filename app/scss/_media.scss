@@ -57,6 +57,13 @@
 
   .hero__list {
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .hero__item {
+    flex-basis: 49%;
   }
 
   .hero__pictures {
@@ -218,6 +225,10 @@
 
   .hero__subtitle {
     margin-bottom: 20px;
+  }
+
+  .hero__item {
+    flex-basis: 100%;
   }
 
   .offer__inner {
