@@ -31,4 +31,6 @@ $(function () {
     prevArrow: '.slick-prev',
     nextArrow: '.slick-next',
   });
+
+  new WOW().init();
 });
