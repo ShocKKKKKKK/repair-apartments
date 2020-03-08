@@ -1,0 +1,69 @@
+.portfolio {
+  padding: 100px 0;
+  position: relative;
+  background-color: #f5f5f5;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/content/portfolio/Прямоугольник_1_копия_5.jpg);
+  }
+
+  &__inner {
+    position: relative;
+    z-index: 4;
+  }
+
+  &__title {
+    margin-bottom: 100px;
+    max-width: 786px;
+  }
+
+  .slick-list {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+
+  .slick-slide {
+    margin: 0 31px;
+  }
+
+  .slick {
+    overflow: hidden;
+
+  }
+}
+
+
+.slider {
+
+  margin-bottom: 60px;
+
+  &__item {
+    img {
+      width: 100%;
+      height: 270px;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  &__arrows {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  &__left {
+    margin-right: 30px;
+    cursor: pointer;
+  }
+
+  &__right {
+    cursor: pointer;
+  }
+}

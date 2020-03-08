@@ -1,0 +1,41 @@
+.advantages {
+  padding-bottom: 100px;
+
+  &__inner {
+    background-color: #ffc000;
+    margin-bottom: 100px;
+  }
+
+  &__title {
+    max-width: 907px;
+    padding: 100px 0;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    max-width: 370px;
+    height: 410px;
+    background-color: #f7f7f7;
+    position: relative;
+  }
+
+  &__text {
+    padding: 30px 25px;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000;
+  }
+
+  &__img {
+    position: absolute;
+    bottom: 0;
+
+    img {
+      width: 100%;
+    }
+  }
+}

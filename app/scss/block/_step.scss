@@ -1,0 +1,54 @@
+.step {
+  padding: 0 0 100px;
+
+  &__title {
+    max-width: 670px;
+    margin-bottom: 60px;
+  }
+
+  &__subtitle {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 60px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    max-width: 150px;
+    text-align: center;
+    position: relative;
+
+    &:not(:last-child) {
+      &::before {
+        content: url(../img/icon/step/arrow-step.svg);
+        position: absolute;
+        top: 0;
+        right: -90px;
+      }
+    }
+  }
+
+  &__img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #ffd200;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    font-size: 14px;
+    color: #000000;
+    line-height: 20px;
+  }
+}
